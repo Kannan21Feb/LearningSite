@@ -1,0 +1,108 @@
+
+
+(One Time Installation)-------npm install -g @ionic/cli native-run cordova-res
+
+-------ionic start etc.
+
+Choose FrameWork-Angular
+
+Choose Template
+
+Type "y" to Add Capcaitor for Run in Andriod / Ios -Native's
+
+
+
+***********
+To Serve
+***********
+
+
+-------cd ./etc
+-------ionic start Or Go to the project location and rund the cmd ((ionic start)
+-------ionic build
+-------ionic capacitor run android
+
+
+-------npm install cordova-sqlite-storage
+-------npm install @ionic-native/sqlite
+
+
+
+
+-------ionic cap sync
+
+
+
+
+-------ionic generate component login
+-------ionic generate service SERVICE/SQLITE_DB
+-------ionic generate class Model/Test
+
+
+-------ionic cap copy
+-------ionic cap sync
+-------ionic cap open android
+
+
+ionic generate component Gmap
+
+Need to add all components to App module if there is no specific Module for component.
+
+
+
+KeyStore:Etc@123
+
+
+
+
+
+
+
+
+
+
+[routerLink]="['/song/', data.id]"
+[routerLink]="['/song/', data.id]"
+(click)="Authlogin()
+
+----------------------
+https://ionicframework.com/docs/troubleshooting/debugging#:~:text=Within%20Safari%2C%20select%20Develop%20in,app%20running%20on%20your%20device
+chrome://inspect/#devices.
+----------------------
+
+
+
+
+
+
+
+--------------------------------------------------
+All new component to be registered in App Module
+
+
+
+--------------------------------------------------
+  <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+   </ion-buttons>
+
+--------------------------------------------------
+this.menuController.enable(false);
+--------------------------------------------------
+@Injectable()
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+https://github.com/mapsplugin/cordova-plugin-googlemaps-doc/blob/master/v2.3.0/README.md
+https://medium.com/ramsatt/integrate-google-maps-on-ionic-4-beta-application-37497dbc12e3

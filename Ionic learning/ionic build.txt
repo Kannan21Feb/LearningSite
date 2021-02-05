@@ -1,0 +1,12 @@
+
+-Build
+-Generate Signed Apk
+-Create new
+Then fill up "New Key Store" form. If you wand to change .jnk file destination then chick on destination and give a name to get Ok button. After finishing it you will get "Key store password", "Key alias", "Key password" Press next and change your the destination folder. Then press finish, thats all. :)
+
+
+
+
+
+EtcApp
+EtcApp@123

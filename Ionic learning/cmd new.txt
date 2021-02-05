@@ -1,0 +1,100 @@
+Microsoft Windows [Version 10.0.18363.1198]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>npm install
+
+C:\Users\RAMESH>cd desktop
+
+C:\Users\RAMESH\Desktop>cd ionicapp
+
+C:\Users\RAMESH\Desktop\IonicApp>ionic start
+
+
+C:\Users\RAMESH\Desktop\IonicApp>cd .\CP_BEMS_FEMS_APP
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic build
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>npm install capacitor
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic capacitor add android
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic capacitor run android
+
+
+
+
+
+
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>npm install @ionic-native/sqlite
+
+
+
+
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic cordova plugin add cordova-sqlite-storage
+[ERROR] Refusing to run ionic cordova plugin inside a Capacitor project.
+
+        In Capacitor projects, Cordova plugins are just regular npm dependencies.
+
+        - To add a plugin, use npm i cordova-sqlite-storage
+        - To remove, use npm uninstall cordova-sqlite-storage
+
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>npm i cordova-sqlite-storage
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic generate component login
+> ng.cmd generate component login --project=app
+CREATE src/app/login/login.component.html (24 bytes)
+CREATE src/app/login/login.component.spec.ts (675 bytes)
+CREATE src/app/login/login.component.ts (264 bytes)
+CREATE src/app/login/login.component.scss (0 bytes)
+[OK] Generated component!
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic generate component ForgotPassword
+> ng.cmd generate component ForgotPassword --project=app
+CREATE src/app/forgot-password/forgot-password.component.html (34 bytes)
+CREATE src/app/forgot-password/forgot-password.component.spec.ts (739 bytes)
+CREATE src/app/forgot-password/forgot-password.component.ts (303 bytes)
+CREATE src/app/forgot-password/forgot-password.component.scss (0 bytes)
+[OK] Generated component!
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic generate service SERVICE/SQLITE_DB
+> ng.cmd generate service SERVICE/SQLITE_DB --project=app
+CREATE src/app/SERVICE/sqlite-db.service.spec.ts (368 bytes)
+CREATE src/app/SERVICE/sqlite-db.service.ts (137 bytes)
+[OK] Generated service!
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic generate class Model/Test
+> ng.cmd generate class Model/Test --project=app
+CREATE src/app/Model/test.spec.ts (146 bytes)
+CREATE src/app/Model/test.ts (22 bytes)
+[OK] Generated class!
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic serve
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>npm install cordova-sqlite-storage
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>npm install @ionic-native/sqlite
+
+
+C:\Users\RAMESH\Desktop\IonicApp\CP_BEMS_FEMS_APP>ionic cap sync
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ionic build prod
+ionic capacitor add android
+npx cap open android to launch Android Studio
